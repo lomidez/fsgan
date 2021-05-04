@@ -13,7 +13,7 @@ from fsgan.utils.tensorboard_logger import TensorBoardLogger
 from fsgan.utils import utils, img_utils, landmarks_utils
 from fsgan.datasets import img_landmarks_transforms
 from fsgan.models.hrnet import hrnet_wlfw
-
+##### helooo 2
 
 def transfer_mask(img1, img2, mask):
     mask = mask.unsqueeze(1).repeat(1, 3, 1, 1).float()
